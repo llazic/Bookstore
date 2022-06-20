@@ -1,0 +1,17 @@
+Zajednicke:
+	- Login
+	- Logout
+	- Izmena svojih podataka
+Kupac:
+	- Pregled svih knjiga (istaknute knjige na promociji)
+	- Detaljni pregled specificne knjige
+	- Ocenjivanje knjige
+	- Komentarisanje knjige
+	- Preporucivanje knjige
+	- Pregled (njemu) preporucenih knjiga
+Prodavac:
+	- Pretrazivanje knjiga po nazivu i autoru
+	- Pregled knjiga
+	- Stavljanje/uklanjanje knjige na/sa promocije
+	- Unos nove knjige
+	

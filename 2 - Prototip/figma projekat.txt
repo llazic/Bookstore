@@ -1,0 +1,4 @@
+Link ka Figma projektu: https://www.figma.com/file/AnhfhE5bl84p56uLuBzJlU/Perce-prototip
+Napomena: Posto je projekat radjen koristeci vise strana, prilikom pregleda, u gornjem levom
+		  uglu mozete videti padajucu listu iz koje se bira odgovarajuca strana (Kupac Web,
+		  Kupac Mobile, Prodavac Web)

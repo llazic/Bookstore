@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageViewLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:src="@drawable/logo"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageViewBars"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bars"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewLogo"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewLogo"
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageViewLogo" />
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imageViewLogo">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal">
+
+            <LinearLayout
+                android:layout_width="210dp"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textViewLabelProfile"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="PROFIL"
+                    android:textColor="@color/grey"
+                    android:textSize="30dp" />
+
+                <TextView
+                    android:id="@+id/textViewError"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text=""
+                    android:textColor="@color/red"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/textViewLabelUsername"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="Korisničko ime"
+                    android:textColor="@color/grey"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/textViewUsername"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="llazic"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/textViewName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Ime"
+                    android:textColor="@color/grey"
+                    android:textSize="20dp" />
+
+                <EditText
+                    android:id="@+id/editTextName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:ems="10"
+                    android:hint="Ime"
+                    android:inputType="textPersonName" />
+
+                <TextView
+                    android:id="@+id/textViewSurame"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Prezime"
+                    android:textColor="@color/grey"
+                    android:textSize="20dp" />
+
+                <EditText
+                    android:id="@+id/editTextSurname"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:ems="10"
+                    android:hint="Prezime"
+                    android:inputType="textPersonName" />
+
+                <TextView
+                    android:id="@+id/textViewPhoneNumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Kontakt telefon"
+                    android:textColor="@color/grey"
+                    android:textSize="20dp" />
+
+                <EditText
+                    android:id="@+id/editTextPhoneNumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:ems="10"
+                    android:hint="Kontakt telefon"
+                    android:inputType="number" />
+
+                <TextView
+                    android:id="@+id/textViewAddress"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Adresa"
+                    android:textColor="@color/grey"
+                    android:textSize="20dp" />
+
+                <EditText
+                    android:id="@+id/editTextAddress"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:ems="10"
+                    android:hint="Adresa"
+                    android:inputType="text" />
+
+                <CheckBox android:id="@+id/checkboxChangePassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Promeni lozinku"
+                    android:checked="false"/>
+
+                <TextView
+                    android:id="@+id/textViewNewPassword1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Nova lozinka"
+                    android:textColor="@color/grey"
+                    android:textSize="20dp" />
+
+                <EditText
+                    android:id="@+id/editTextNewPassword1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:ems="10"
+                    android:hint="Nova lozinka"
+                    android:inputType="textPassword"
+                    android:focusable="false"/>
+
+                <TextView
+                    android:id="@+id/textViewNewPassword2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Nova lozinka"
+                    android:textColor="@color/grey"
+                    android:textSize="20dp" />
+
+                <EditText
+                    android:id="@+id/editTextNewPassword2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:ems="10"
+                    android:hint="Nova lozinka"
+                    android:inputType="textPassword"
+                    android:focusable="false"/>
+
+                <Button
+                    android:id="@+id/buttonSave"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="@color/blue"
+                    android:text="Sačuvaj"
+                    android:layout_marginBottom="30dp"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

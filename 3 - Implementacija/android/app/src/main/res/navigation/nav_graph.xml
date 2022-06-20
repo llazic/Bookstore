@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/loginFragment">
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.pki_projekat.fragments.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_loginFragment_to_buyerLandingFragment"
+            app:destination="@id/buyerLandingFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/buyerLandingFragment"
+        android:name="com.example.pki_projekat.fragments.LandingFragment"
+        android:label="fragment_buyer_landing"
+        tools:layout="@layout/fragment_buyer_landing" >
+        <action
+            android:id="@+id/action_buyerLandingFragment_to_buyerMenuFragment"
+            app:destination="@id/buyerMenuFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/buyerMenuFragment"
+        android:name="com.example.pki_projekat.fragments.MenuFragment"
+        android:label="fragment_buyer_menu"
+        tools:layout="@layout/fragment_buyer_menu" >
+        <action
+            android:id="@+id/action_buyerMenuFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+        <action
+            android:id="@+id/action_buyerMenuFragment_to_buyerLandingFragment"
+            app:destination="@id/buyerLandingFragment" />
+        <action
+            android:id="@+id/action_buyerMenuFragment_to_profileFragment"
+            app:destination="@id/profileFragment" />
+        <action
+            android:id="@+id/action_buyerMenuFragment_to_recommendationFragment"
+            app:destination="@id/recommendationFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.pki_projekat.fragments.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" >
+        <action
+            android:id="@+id/action_profileFragment_to_buyerMenuFragment"
+            app:destination="@id/buyerMenuFragment" />
+        <action
+            android:id="@+id/action_profileFragment_to_buyerLandingFragment"
+            app:destination="@id/buyerLandingFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/recommendationFragment"
+        android:name="com.example.pki_projekat.fragments.RecommendationFragment"
+        android:label="fragment_recommendation"
+        tools:layout="@layout/fragment_recommendation" >
+        <action
+            android:id="@+id/action_recommendationFragment_to_buyerMenuFragment"
+            app:destination="@id/buyerMenuFragment" />
+        <action
+            android:id="@+id/action_recommendationFragment_to_buyerLandingFragment"
+            app:destination="@id/buyerLandingFragment" />
+    </fragment>
+</navigation>
