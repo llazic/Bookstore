@@ -35,11 +35,54 @@
         android:layout_width="match_parent"
         android:layout_height="0dp">
 
-        <LinearLayout
-            android:id="@+id/imagesLayout"
+        <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical" />
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textViewPromoBooks"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="PROMOCIJA"
+                android:textColor="@color/grey"
+                android:textSize="30dp" />
+
+            <GridLayout
+                android:id="@+id/gridLayoutPromoBooks"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/textViewPromoBooks"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:columnCount="2"
+                android:rowCount="1"/>
+
+            <TextView
+                android:id="@+id/textViewAllBooks"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/gridLayoutPromoBooks"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="SVE KNJIGE"
+                android:textColor="@color/grey"
+                android:textSize="30dp" />
+
+            <GridLayout
+                android:id="@+id/gridLayoutBooksNotOnPromo"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/textViewAllBooks"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:columnCount="2"
+                android:rowCount="1"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
 
     </ScrollView>
 

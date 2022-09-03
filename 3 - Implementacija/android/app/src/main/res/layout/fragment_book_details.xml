@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageViewLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:src="@drawable/logo"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        />
+
+    <ImageView
+        android:id="@+id/imageViewBars"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bars"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewLogo"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewLogo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageViewLogo"
+        app:layout_constraintHorizontal_bias="0.1"/>
+
+    <ScrollView
+        app:layout_constraintTop_toBottomOf="@id/imageViewLogo"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textViewTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Noz"
+                android:textColor="@color/grey"
+                android:textSize="30dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/textViewAuthor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ju Nesbe"
+                android:textColor="@color/grey"
+                android:textSize="20dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textViewTitle"
+                android:layout_marginTop="5dp"
+                android:textStyle="bold"/>
+
+            <ImageView
+                android:id="@+id/imageViewBookImage"
+                app:layout_constraintTop_toBottomOf="@id/textViewAuthor"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                android:layout_width="270dp"
+                android:layout_height="400dp"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:id="@+id/textViewReleaseYear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/imageViewBookImage"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/grey"
+                android:textSize="15dp"
+                android:text="Godina izdanja: 2019"/>
+
+            <TextView
+                android:id="@+id/textViewPageCount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/textViewReleaseYear"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                android:textColor="@color/grey"
+                android:textSize="15dp"
+                android:text="Broj strana: 554"/>
+
+            <ImageView
+                android:id="@+id/imageViewInfo"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/info"
+                app:layout_constraintTop_toBottomOf="@id/textViewPageCount"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintHorizontal_bias="0.19"
+                android:layout_marginTop="20dp"/>
+
+            <ImageView
+                android:id="@+id/imageViewReviews"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/comments"
+                app:layout_constraintTop_toBottomOf="@id/textViewPageCount"
+                app:layout_constraintLeft_toRightOf="@id/imageViewInfo"
+                android:layout_marginTop="24dp"/>
+
+            <ImageView
+                android:id="@+id/imageViewShare"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/share"
+                app:layout_constraintTop_toBottomOf="@id/textViewPageCount"
+                app:layout_constraintLeft_toRightOf="@id/imageViewReviews"
+                android:layout_marginTop="23dp"/>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/constraintLayoutDynamicContent"
+                android:layout_width="270dp"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/imageViewReviews"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="30dp">
+
+                <TextView
+                    android:id="@+id/textViewBookDescription"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent">
+
+                </TextView>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

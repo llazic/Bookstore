@@ -56,7 +56,7 @@ public class MainActivity extends AppCompatActivity {
                 "Serotonin",
                 "Misel Uelbek",
                 "1998.",
-                "serotonin.jpg",
+                "serotonin",
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
                 true,
                 new ArrayList<>(
@@ -83,7 +83,7 @@ public class MainActivity extends AppCompatActivity {
                 "Da Vincijev kod",
                 "Den Braun",
                 "1998.",
-                "Da_Vinčijev_kod_-_knjiga.jpg",
+                "da_vincijev_kod",
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
                 true,
                 new ArrayList<>(
@@ -110,7 +110,7 @@ public class MainActivity extends AppCompatActivity {
                 "Serotonin",
                 "Misel Uelbek",
                 "1998.",
-                "serotonin.jpg",
+                "serotonin",
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
                 true,
                 new ArrayList<>(
@@ -137,7 +137,7 @@ public class MainActivity extends AppCompatActivity {
                 "Da Vincijev kod",
                 "Den Braun",
                 "1998.",
-                "Da_Vinčijev_kod_-_knjiga.jpg",
+                "da_vincijev_kod",
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
                 true,
                 new ArrayList<>(
@@ -164,9 +164,9 @@ public class MainActivity extends AppCompatActivity {
                 "Serotonin",
                 "Misel Uelbek",
                 "1998.",
-                "serotonin.jpg",
+                "serotonin",
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-                true,
+                false,
                 new ArrayList<>(
                         Arrays.asList(
                                 new Review(
@@ -191,9 +191,9 @@ public class MainActivity extends AppCompatActivity {
                 "Da Vincijev kod",
                 "Den Braun",
                 "1998.",
-                "Da_Vinčijev_kod_-_knjiga.jpg",
+                "da_vincijev_kod",
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-                true,
+                false,
                 new ArrayList<>(
                         Arrays.asList(
                                 new Review(

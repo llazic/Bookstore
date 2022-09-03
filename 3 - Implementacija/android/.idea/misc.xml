@@ -5,6 +5,11 @@
       <map>
         <entry key="..\:/Faks/Master/I semestar/PKI/Projekat/3 - Implementacija/android/app/src/main/res/layout/activity_main.xml" value="0.3625" />
         <entry key="..\:/Faks/Master/I semestar/PKI/Projekat/3 - Implementacija/android/app/src/main/res/layout/book.xml" value="0.3614583333333333" />
+        <entry key="..\:/Faks/Master/I semestar/PKI/Projekat/3 - Implementacija/android/app/src/main/res/layout/book_description.xml" value="0.3625" />
+        <entry key="..\:/Faks/Master/I semestar/PKI/Projekat/3 - Implementacija/android/app/src/main/res/layout/button_recommend.xml" value="0.3614583333333333" />
+        <entry key="..\:/Faks/Master/I semestar/PKI/Projekat/3 - Implementacija/android/app/src/main/res/layout/comment.xml" value="0.3625" />
+        <entry key="..\:/Faks/Master/I semestar/PKI/Projekat/3 - Implementacija/android/app/src/main/res/layout/comment_form.xml" value="0.25" />
+        <entry key="..\:/Faks/Master/I semestar/PKI/Projekat/3 - Implementacija/android/app/src/main/res/layout/fragment_book_details.xml" value="0.3625" />
         <entry key="..\:/Faks/Master/I semestar/PKI/Projekat/3 - Implementacija/android/app/src/main/res/layout/fragment_buyer_landing.xml" value="0.3625" />
         <entry key="..\:/Faks/Master/I semestar/PKI/Projekat/3 - Implementacija/android/app/src/main/res/layout/fragment_buyer_menu.xml" value="0.18541666666666667" />
         <entry key="..\:/Faks/Master/I semestar/PKI/Projekat/3 - Implementacija/android/app/src/main/res/layout/fragment_login.xml" value="0.3625" />
@@ -12,6 +17,11 @@
         <entry key="..\:/Faks/Master/I semestar/PKI/Projekat/3 - Implementacija/android/app/src/main/res/layout/fragment_recommendation.xml" value="0.18541666666666667" />
         <entry key="..\:/Faks/Master/I semestar/PKI/Projekat/3 - Implementacija/android/app/src/main/res/layout/fragment_seller_landing.xml" value="0.3625" />
         <entry key="..\:/Faks/Master/I semestar/PKI/Projekat/3 - Implementacija/android/app/src/main/res/layout/fragment_seller_menu.xml" value="0.18541666666666667" />
+        <entry key="..\:/Faks/Master/I semestar/PKI/Projekat/3 - Implementacija/android/app/src/main/res/layout/linear_layout_reviews.xml" value="0.3614583333333333" />
+        <entry key="..\:/Faks/Master/I semestar/PKI/Projekat/3 - Implementacija/android/app/src/main/res/layout/recommendation_form.xml" value="0.21" />
+        <entry key="..\:/Faks/Master/I semestar/PKI/Projekat/3 - Implementacija/android/app/src/main/res/layout/recommendation_view.xml" value="0.21145833333333333" />
+        <entry key="..\:/Faks/Master/I semestar/PKI/Projekat/3 - Implementacija/android/app/src/main/res/layout/review.xml" value="0.3625" />
+        <entry key="..\:/Faks/Master/I semestar/PKI/Projekat/3 - Implementacija/android/app/src/main/res/layout/yellow_star_image.xml" value="0.3614583333333333" />
       </map>
     </option>
   </component>

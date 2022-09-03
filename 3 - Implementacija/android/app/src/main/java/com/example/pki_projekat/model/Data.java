@@ -12,6 +12,8 @@ public class Data {
 
     public User currentUser;
 
+    public int currentBookId;
+
     public Data() {
         this.users = new ArrayList<>();
         this.books = new ArrayList<>();

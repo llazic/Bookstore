@@ -22,6 +22,9 @@
         <action
             android:id="@+id/action_buyerLandingFragment_to_buyerMenuFragment"
             app:destination="@id/buyerMenuFragment" />
+        <action
+            android:id="@+id/action_buyerLandingFragment_to_bookDetailsFragment"
+            app:destination="@id/bookDetailsFragment" />
     </fragment>
     <fragment
         android:id="@+id/buyerMenuFragment"
@@ -63,6 +66,21 @@
             app:destination="@id/buyerMenuFragment" />
         <action
             android:id="@+id/action_recommendationFragment_to_buyerLandingFragment"
+            app:destination="@id/buyerLandingFragment" />
+        <action
+            android:id="@+id/action_recommendationFragment_to_bookDetailsFragment"
+            app:destination="@id/bookDetailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/bookDetailsFragment"
+        android:name="com.example.pki_projekat.fragments.BookDetailsFragment"
+        android:label="fragment_book_details"
+        tools:layout="@layout/fragment_book_details" >
+        <action
+            android:id="@+id/action_bookDetailsFragment_to_buyerMenuFragment"
+            app:destination="@id/buyerMenuFragment" />
+        <action
+            android:id="@+id/action_bookDetailsFragment_to_buyerLandingFragment"
             app:destination="@id/buyerLandingFragment" />
     </fragment>
 </navigation>
